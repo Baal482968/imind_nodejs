@@ -1,5 +1,10 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const authRoutes = require('./routes/auth-routes');
+const passportSetup = require('./config/passport-setup');
+const mongoose = require('mongoose');
+const keys = require('./config/keys');
+
+const app = express();
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
