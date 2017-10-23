@@ -1,0 +1,19 @@
+{
+  "name": "imind_nodejs",
+  "version": "1.0.0",
+  "description": "Server for imind",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baal482968/imind_nodejs.git"
+  },
+  "author": "Baal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baal482968/imind_nodejs/issues"
+  },
+  "homepage": "https://github.com/Baal482968/imind_nodejs#readme"
+}
